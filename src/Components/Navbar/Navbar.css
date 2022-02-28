@@ -1,0 +1,29 @@
+.navbar-items {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #f8f8f8;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.item {
+  padding: 0px 10px 0px 10px;
+  font-weight: 600;
+  color: #777777;
+}
+
+.item:hover {
+  color: black;
+  cursor: pointer;
+}
